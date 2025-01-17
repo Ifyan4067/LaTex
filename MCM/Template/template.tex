@@ -31,7 +31,7 @@
 % 此处填写摘要内容
 \begin{abstract}
     
-   Global warming, El Niño... With the emergence of various extreme climates,\textbf{Austral-ia's wildfires} occur more frequently. The greenhouse gases emitted after combustion have exacerbated global warming, which seems to have entered an endless loop. At the same time, hundreds of millions of lives have been killed in the fire, which makes us sad. In order to better control wildfires, we modeled the \textbf{distribution of drones} assisting in the observation to achieve the best balance between economy and efficiency.
+Global warming, El Niño... With the emergence of various extreme climates,\textbf{Austral-ia's wildfires} occur more frequently. The greenhouse gases emitted after combustion have exacerbated global warming, which seems to have entered an endless loop. At the same time, hundreds of millions of lives have been killed in the fire, which makes us sad. In order to better control wildfires, we modeled the \textbf{distribution of drones} assisting in the observation to achieve the best balance between economy and efficiency.
 
 Several models are established: Model I: Rasterized Multi-Objective Optimization Model; Model II: Model Verification Simulated by Poisson Process; Model III: Hovering Model Based on Tabu Search, etc.
 
@@ -53,7 +53,7 @@ Finally, sensitivity analysis of the mathematical expectation of extreme fire ev
 
 \maketitle  % 生成 Summary Sheet
 
-\tableofcontents  % 生成目录
+%\tableofcontents  % 生成目录
 
 
 % 正文开始
@@ -169,7 +169,7 @@ $t_{fly}^{\delta}$ & The flight time of drones\\
 \end{table}
 \vspace{-1cm}%在\end{table}下加一行\vspace{-1cm} 其中-1的作用是缩短与下方文字距离的 切记！必须是负数
 
-\section{Model Preparation}
+\section{Date Preparation}
 \subsection{Data Overview}
 The question did not provide us with data directly, so we need to consider which data to collect in the model building. Through the analysis of the problem, we need to collect the relevant information of Victoria, Australia, such as \textbf{latitude and longitude, altitude, number of wildfires} and so on. Due to the large amount of data, it is not convenient to list them all, so visualizing the data for display is a good method.
 
@@ -217,7 +217,36 @@ Considering the heat map we made, it shows the number of wildfires in various st
     \item Some approximate analysis methods are applied to model other places, which may lead to the situation that not to be the most optimal.
 \end{enumerate}
 
+%数据处理
+\subsection{Data Processing}
+
+%异常值检验
+\subsubsection{Correction of Anomalous Values}
+
+%缺失值填补
+\subsubsection{Filling Missing Data}
+
+%数据转换
+\subsubsection{Data Transformation}
+
+%论文主体部分
+\section{XX Model}
+
+%灵敏度和鲁棒分析
+\section{Sensitivity Analysis}
+	
+%模型评估
+\section{Model Assessment}
+
+%模型优点
+\subsection{Strengths}
+
+%模型缺点
+\subsection{Weaknesses}
+
+
 % 参考文献，此处以 MLA 引用格式为例
+% 我在知乎上找了美赛参考资料的格式书写方法，注意查看
 \clearpage   %另起一页继续写。这时,你最好使用“\clearpage” 
 \begin{thebibliography}{99}
     \bibitem{1} GLOBAL FOREST WHATCH OF AUSTRALIA https://www.globalforestwatch.org/topics/fires/?topic=fires\#footer
@@ -227,6 +256,9 @@ Considering the heat map we made, it shows the number of wildfires in various st
 	\bibitem{5} XU Jian, ZHOU Deyun, HUANG He. Multi UAV path planning based on improved ge-netic algorithm. Aeronautical Computing Technique, 2009, 39(4): 43-46.
 
 \end{thebibliography}
-% \includepdf[pages={1,2}]{Memo.pdf} 
+
+%在参考文献后，还应有备忘录MEMO变相总结全文，最后是附录Appendices
+
+%\includepdf[pages={1,2}]{Memo.pdf} 
 
 \end{document}  % 结束

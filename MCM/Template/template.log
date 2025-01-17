@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.30)  10 JAN 2025 16:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.30)  15 JAN 2025 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -777,31 +777,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {f:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{f:/texlive/2024/
-texmf-dist/fonts/enc/dvips/base/8r.enc}] (./template.toc)
-\tf@toc=\write5
-\openout5 = `template.toc'.
-
- [2]
-<img/Fire_Situation.png, id=79, 888.31876pt x 355.3275pt>
+texmf-dist/fonts/enc/dvips/base/8r.enc}]
+<img/Fire_Situation.png, id=97, 888.31876pt x 355.3275pt>
 File: img/Fire_Situation.png Graphic file (type png)
 <use img/Fire_Situation.png>
 Package pdftex.def Info: img/Fire_Situation.png  used on input line 68.
 (pdftex.def)             Requested size: 318.66948pt x 127.46777pt.
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 8
 3.
-
-(f:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+ (f:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [3
-
- <./img/Fire_Situation.png>]
-<img/Literature_Review.png, id=92, 867.24pt x 490.83376pt>
+)
+[2 <./img/Fire_Situation.png>]
+<img/Literature_Review.png, id=109, 867.24pt x 490.83376pt>
 File: img/Literature_Review.png Graphic file (type png)
 <use img/Literature_Review.png>
 Package pdftex.def Info: img/Literature_Review.png  used on input line 104.
 (pdftex.def)             Requested size: 386.96027pt x 219.00826pt.
- [4 <./img/Literature_Review.png>]
-<img/Flow_Chart.png, id=105, 914.66719pt x 385.44pt>
+ [3 <./img/Literature_Review.png>]
+<img/Flow_Chart.png, id=121, 914.66719pt x 385.44pt>
 File: img/Flow_Chart.png Graphic file (type png)
 <use img/Flow_Chart.png>
 Package pdftex.def Info: img/Flow_Chart.png  used on input line 122.
@@ -818,23 +812,94 @@ Overfull \hbox (6.29243pt too wide) in paragraph at lines 137--139
 flect the chang-
  []
 
-[5 <./img/Flow_Chart.png>] [6]
-<img/Data_Screening(1).png, id=125, 220.4235pt x 144.2115pt>
+[4 <./img/Flow_Chart.png>] [5]
+<img/Data_Screening(1).png, id=140, 220.4235pt x 144.2115pt>
 File: img/Data_Screening(1).png Graphic file (type png)
 <use img/Data_Screening(1).png>
 Package pdftex.def Info: img/Data_Screening(1).png  used on input line 205.
 (pdftex.def)             Requested size: 204.85846pt x 134.02727pt.
-<img/Data_Screening(2).png, id=126, 211.554pt x 126.4725pt>
+<img/Data_Screening(2).png, id=141, 211.554pt x 126.4725pt>
 File: img/Data_Screening(2).png Graphic file (type png)
 <use img/Data_Screening(2).png>
 Package pdftex.def Info: img/Data_Screening(2).png  used on input line 207.
 (pdftex.def)             Requested size: 204.85846pt x 122.47168pt.
- [7 <./img/Data_Screening(1).png> <./img/Data_Screening(2).png>]
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+ [6 <./img/Data_Screening(1).png> <./img/Data_Screening(2).png>]
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 []\T1/ppl/m/n/12 GLOBAL FOR-EST WHATCH OF AUS-TRALIA
  []
 
-[8
+! Undefined control sequence.
+l.261 \memoto
+             {\LaTeX{}studio}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.262 \memofrom
+               {Liam Huang}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.263 \memosubject
+                  {Happy \TeX{}ing!}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.264 \memodate
+               {\today}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment memo undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.266 \begin{memo}
+                  [Memorandum]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.267 	\lipsum
+              [1-3]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{memo}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 \end{memo}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[7
 
 ] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -844,26 +909,26 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 8E9E9E18B3446F0E58F09E86FCA94C3A;1646.
+(rerunfilecheck)             Checksum: 80FA0089528A55DB5ADAAEB6DF658869;2946.
  ) 
 Here is how much of TeX's memory you used:
- 17190 strings out of 474116
- 267819 string characters out of 5747717
+ 17204 strings out of 474116
+ 268087 string characters out of 5747717
  1944190 words of memory out of 5000000
- 39211 multiletter control sequences out of 15000+600000
- 581443 words of font info for 81 fonts, out of 8000000 for 9000
+ 39219 multiletter control sequences out of 15000+600000
+ 582118 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,12n,81p,766b,574s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,11n,81p,766b,570s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <f:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><f:/tex
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><f:/texlive/2024/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><f:/texlive/2024/texmf-dist/
 fonts/type1/urw/palatino/uplb8a.pfb><f:/texlive/2024/texmf-dist/fonts/type1/urw
 /palatino/uplbi8a.pfb><f:/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr
 8a.pfb>
-Output written on template.pdf (8 pages, 864426 bytes).
+Output written on template.pdf (7 pages, 863911 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 122 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 200 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

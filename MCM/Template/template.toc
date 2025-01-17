@@ -5,9 +5,18 @@
 \contentsline {subsection}{\numberline {1.4}Our Work}{4}{subsection.0.1.4}%
 \contentsline {section}{\numberline {2}Assumptions and Explanations}{5}{section.0.2}%
 \contentsline {section}{\numberline {3}Notations}{6}{section.0.3}%
-\contentsline {section}{\numberline {4}Model Preparation}{6}{section.0.4}%
+\contentsline {section}{\numberline {4}Date Preparation}{6}{section.0.4}%
 \contentsline {subsection}{\numberline {4.1}Data Overview}{6}{subsection.0.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}Data Collection}{6}{subsubsection.0.4.1.1}%
 \contentsline {subsubsection}{\numberline {4.1.2}Data Screening}{6}{subsubsection.0.4.1.2}%
-\contentsline {section}{References}{8}{section.0.5}%
+\contentsline {subsection}{\numberline {4.2}Data Processing}{8}{subsection.0.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Correction of Anomalous Values}{8}{subsubsection.0.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Filling Missing Data}{8}{subsubsection.0.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Data Transformation}{8}{subsubsection.0.4.2.3}%
+\contentsline {section}{\numberline {5}XX Model}{8}{section.0.5}%
+\contentsline {section}{\numberline {6}Sensitivity Analysis}{8}{section.0.6}%
+\contentsline {section}{\numberline {7}Model Assessment}{8}{section.0.7}%
+\contentsline {subsection}{\numberline {7.1}Strengths}{8}{subsection.0.7.1}%
+\contentsline {subsection}{\numberline {7.2}Weaknesses}{8}{subsection.0.7.2}%
+\contentsline {section}{References}{9}{section.0.8}%
 \contentsfinish 
